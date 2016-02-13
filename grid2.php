@@ -192,8 +192,8 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li><a href="/grid1.php">Grid1</a></li>
-              <li class="active"><a href="/grid2.php">Grid2</a></li>
+              <li><a href="/grid1.php">Grid 1</a></li>
+              <li class="active"><a href="/grid2.php">Grid 2</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
