@@ -4,12 +4,6 @@ exec("python py-bin/opc_get_values.py 2>&1", $output, $return_var);
 
 $data = array();
 
-#$data['generation'] = $output[0];
-#$data['load'] = $output[1];
-#$data['breaker'] = $output[2];
-#$data['flow'] = $output[3];
-
-
 $data['relay1_breaker'] = $output[0];
 $data['relay1_load'] = $output[1];
 $data['relay1_flow'] = $output[2];
